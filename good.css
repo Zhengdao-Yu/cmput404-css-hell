@@ -1,0 +1,38 @@
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh
+}
+img{
+    width: 30%;
+    height: 30%
+}
+div.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 600px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+div.left_side{
+    position: relative;
+    background: lightblue;
+    padding: 40px
+
+}
+div.right_side{
+    position: relative;
+    background: white;
+    padding: 40px;
+    text-align: center
+}
+div.fig{
+    display: block;
+    margin: 0 auto;
+    text-align: center
+}

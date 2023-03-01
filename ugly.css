@@ -1,0 +1,25 @@
+body {
+    background: lightblue;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: justify
+    }
+img{
+    width: 30%;
+    height: 30%
+}
+div.fig{
+    display: block;
+    margin: 0 auto;
+    text-align: center
+}
+div.context{
+    display: block;
+    margin: 0 auto;
+    font-style: oblique;
+    text-align: center
+}
+img.adjust{
+    transform: scale(1);
+    transition: all 0.2s linear
+}
